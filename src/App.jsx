@@ -92,11 +92,7 @@ function App(props) {
     setLoading(true);
     // open chat window
     // openOrCloseLeftContainer(!collapsed);
-    let url =
-      window.location.protocol +
-      "//" +
-      window.location.hostname +
-      ":" + "5551";
+    let url ="http://mukul.uk:5551";
       // Note if you're running this inside docker you'll need to remove the ":5551" and possibly add the following line so that caddy can proxy correctly
       // + window.location.port;
     console.log("Connect url:" + url);
