@@ -16,8 +16,8 @@ services:
       - ionnet
     environment:
       # must set, used by caddy to download free certificate
-      - WWW_URL=yourdomain
-      - ADMIN_EMAIL=youremail
+      - WWW_URL=mukul.uk
+      - ADMIN_EMAIL=saidur.shawon@gmail.com
 
 volumes:
   caddy:
